@@ -1,4 +1,4 @@
-namespace ContosoPizza.Models;
+namespace src.Models;
 
 public class Pizza
 {

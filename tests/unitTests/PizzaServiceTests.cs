@@ -1,10 +1,8 @@
 using Xunit;
-using ContosoPizza.Services;
-using ContosoPizza.Models;
+using src.Services;
+using src.Models;
 using System.Text.Json;
 using System.Reflection;
-
-namespace tests;
 
 public class PizzaServiceTests
 {
