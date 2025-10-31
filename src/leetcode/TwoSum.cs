@@ -34,6 +34,11 @@ public class TwoSum
     // -109 <= target <= 109
     // Only one valid answer exists.
     
+    // Scan the array sequentially, and for each element, find the other half
+    // of the number that can be combined with the given value in the map.
+    // If found, directly return the subscripts of the two numbers.
+    // If not found, store the number in the map, wait until the "other half"
+    // number is scanned, then take it out and return the result.
     public int[] solution(int[] nums, int target)
     {
         // Create a dict with number as key and index as val
