@@ -5,7 +5,7 @@ public class LongestSubstringTests
     // MethodName_TestScenario_ExpectedResult
     
     [Fact]
-    public void solution_shouldReturn_1()
+    public void LongestSubstring_sameChars_Returns1()
     {
         var solver = new LongestSubstring();
         string input = "bbbbb";
@@ -15,7 +15,7 @@ public class LongestSubstringTests
     }
     
     [Fact]
-    public void solution_shouldReturn_2()
+    public void LongestSubstring_4Chars_Returns2()
     {
         var solver = new LongestSubstring();
         string input = "abaa";
@@ -26,7 +26,7 @@ public class LongestSubstringTests
 
     
     [Fact]
-    public void solution_shouldReturn_3()
+    public void LongestSubstring_7Chars_Returns3()
     {
         var solver = new LongestSubstring();
         string input = "abcbcbb";
